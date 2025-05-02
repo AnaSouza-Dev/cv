@@ -1,0 +1,160 @@
+/* body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #CEB0AB;
+    color: #333;
+}
+header{
+    
+} */
+ /* Reset básico */
+
+ /* Reset básico */
+ body {
+    font-family: Arial, sans-serif;
+    background-color: rgba(0, 0, 0, 0.7);;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    
+    text-align: left;
+    background-image: url('images/avatar.jpeg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 250px;
+    box-shadow: 0px 20px 40px -20px rgba(0, 0, 0, 0.5);
+    position: relative;
+    color: white;
+    padding: 20px;
+}
+
+/* Remove imagem de perfil */
+.infoGeral {
+    position: relative;
+    top: 60px;
+    left: 0px;
+    font-size: 26px;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 5px 2px;
+    border-radius: 8px;
+    width: 400px;
+}
+
+.infoGeral h1 {
+    margin: 0;
+    font-size: 24px;
+}
+.contato{
+    position: absolute;
+    top: 100px;
+    left: 40px;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 15px 20px;
+    border-radius: 8px;
+    color: white;
+    font-size: 20px;
+    line-height: 1.6;
+    width: 600p
+}
+
+nav {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    position: absolute;
+    top: 30px;
+    right: 40px;
+    
+   
+}
+
+nav p {
+    margin: 0;
+    text-align: right;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+nav li{
+    list-style: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+section {
+    background-color: white;
+    margin: 30px auto;
+    padding: 20px;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    border-radius: 8px;
+}
+
+section h2 {
+    color: #003366;
+    border-bottom: 2px solid #003366;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+section ul {
+    padding-left: 20px;
+}
+
+section ul li {
+    margin-bottom: 8px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    background-color: #ddd;
+}
+
+footer a {
+    color: #003366;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+.contato a{
+    text-decoration: none;
+    color: white;
+}
+.menu li a{
+    
+    display: block;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+.menu li a:hover{
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #333;
+}
+ul.menu {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+  }
+a {
+    text-decoration: none;
+}
+ .contato
